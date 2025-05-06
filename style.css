@@ -35,3 +35,51 @@ body {
     border-radius: 8px;
     max-width: 400px;
   }
+
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .photo-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  #forumList {
+    margin-top: 20px;
+  }
+
+  .forum-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .forum-item h3 {
+    margin: 0 0 10px;
+  }
+
+  .forum-item p {
+    margin: 5px 0;
+  }
+
+  .forum-item button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .forum-item button:hover {
+    background-color: #ff1a1a;
+  }

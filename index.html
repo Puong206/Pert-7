@@ -6,13 +6,55 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <a href="index.html">Beranda</a>
-    <a href="biodata.html">Biodata</a>
-    <a href="hobi.html">Hobi</a>
-    <a href="about.html">About Me</a> 
-  </nav>
-  <h1>Arya Bagas Saputra</h1>
-  <p>Selamat Datang di website saya.</p>
+
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="biodata.html">Biodata</a>
+        <a href="hobi.html">Hobi</a>
+        <a href="about.html">About Me</a> 
+    </nav>
+    <h1>Arya Bagas Saputra</h1>
+    <p>Selamat Datang di website saya.</p>
+
+    <h2>Next Hunt</h2>
+
+    <form id="forumForm">
+        <label for="forumTitle">Next Hunt dimana:</label><br>
+        <input type="text" id="forumTitle" name="forumTitle" placeholder="Masukkan judul diskusi"><br><br>
+
+        <label for="forumCategory">Daop:</label><br>
+        <input type="radio" id="daop1" name="forumCategory" value="Daop1">
+        <label for="Daop 1">Daop 1</label>
+        <input type="radio" id="daop2" name="forumCategory" value="Daop2">
+        <label for="Daop 2">Daop 2</label>
+        <input type="radio" id="daop3" name="forumCategory" value="Daop3">
+        <label for="Daop 3">Daop 3</label>
+        <input type="radio" id="daop4" name="forumCategory" value="Daop4">
+        <label for="Daop 4">Daop 4</label><br><br>
+        <input type="radio" id="daop5" name="forumCategory" value="Daop5">
+        <label for="Daop 5">Daop 5</label>
+        <input type="radio" id="daop6" name="forumCategory" value="Daop6">
+        <label for="Daop 6">Daop 6</label>
+        <input type="radio" id="daop7" name="forumCategory" value="Daop7">
+        <label for="Daop 7">Daop 7</label>
+        <input type="radio" id="daop8" name="forumCategory" value="Daop8">
+        <label for="Daop 8">Daop 8</label><br><br>
+        <input type="radio" id="daop9" name="forumCategory" value="Daop9">
+        <label for="Daop 9">Daop 9</label>
+        <br><br>
+
+        <label for="forumTags">Tag:</label><br>
+        <input type="checkbox" id="tag1" name="forumTags" value="Sendiri">
+        <label for="tag1">Sendiri</label>
+        <input type="checkbox" id="tag2" name="forumTags" value="Ramean">
+        <label for="tag2">Ramean</label><br><br>
+
+        <input type="submit" value="Gaskeun!">
+        <button type="button" onclick="resetForumForm()">Reset</button>
+    </form>
+
+    <div id="forumList"></div>
+
+    <script src="forum.js"></script>
 </body>
 </html>
