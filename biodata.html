@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Halaman Biodata</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="biodata.html">Biodata</a>
+    <a href="hobi.html">Hobi</a>
+    <a href="about.html">About Me</a> 
+  </nav>
+  <h1>Biodata</h1>
+  <div id="output"></div>
+  
+  <form id="biodataForm">
+    <label for="nama">Nama:</label><br>
+    <input type="text" id="nama" name="nama"><br><br>
+
+    <label for="nim">NIM:</label><br>
+    <input type="text" id="nim" name="nim"><br><br>
+
+    <label for="jk">Jenis Kelamin:</label><br>
+    <input type="radio" id="pria" name="jk" value="Pria"> <label for="pria">Pria</label>
+    <input type="radio" id="wanita" name="jk" value="Wanita"> <label for="wanita">Wanita</label><br><br>
+
+    <input type="submit" value="Kirim">
+  </form>
+  <script src="biodata.js"></script>
+</body>
+</html>
